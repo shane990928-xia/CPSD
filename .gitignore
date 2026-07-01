@@ -1,0 +1,68 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and runtime outputs
+*.log
+logs/
+outputs/
+wandb/
+runs/
+ray_results/
+
+# Checkpoints and model artifacts
+checkpoints/
+ckpt/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Local datasets and generated artifacts
+data/
+*.parquet
+*.arrow
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Downloaded WebShop assets
+agent_system/environments/env_package/webshop/webshop/data
+agent_system/environments/env_package/webshop/webshop/data/
+agent_system/environments/env_package/webshop/webshop/*.whl
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
